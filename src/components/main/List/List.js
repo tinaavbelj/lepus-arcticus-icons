@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 import Icon from "./Icon";
-import BoxShadow from "../../shared/BoxShadow";
+import BoxShadow from "components/shared/BoxShadow";
 
 const List = ({ colors, iconSize, iconStroke, filteredIcons }) => {
   const handleDownloadIcon = name => {
