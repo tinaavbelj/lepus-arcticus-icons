@@ -39,7 +39,7 @@ const Filters = ({
 );
 
 const Wrapper = styled.div`
-  width: 15%;
+  width: 250px;
 `;
 
 const Segment = styled.div`

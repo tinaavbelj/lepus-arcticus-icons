@@ -22,14 +22,12 @@ const List = ({ colors, iconSize, iconStroke, filteredIcons }) => {
       {filteredIcons.map((name, i) => (
         <Item key={i} onClick={() => handleDownloadIcon(name)}>
           <IconWrapper>
-            <IconContainer>
-              <Icon
-                colors={colors}
-                iconSize={iconSize}
-                iconStroke={iconStroke}
-                name={name}
-              ></Icon>
-            </IconContainer>
+            <Icon
+              colors={colors}
+              iconSize={iconSize}
+              iconStroke={iconStroke}
+              name={name}
+            ></Icon>
           </IconWrapper>
           <IconInformation>{name}</IconInformation>
         </Item>
@@ -39,14 +37,17 @@ const List = ({ colors, iconSize, iconStroke, filteredIcons }) => {
 };
 
 const Wrapper = styled.div`
-  width: 80%;
-  padding-left: 120px;
-  display: flex;
-  flex-wrap: wrap;
+  width: calc(100% - 250px - 120px);
+  height: fit-content;
+  margin-left: 120px;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
 `;
 
 const IconWrapper = styled(BoxShadow)`
-  width: 100%;
+  width: 100px;
+  height: 100px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -56,10 +57,10 @@ const IconWrapper = styled(BoxShadow)`
 `;
 
 const Item = styled.div`
+  height: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-right: 2em;
   cursor: pointer;
 
   &:hover {
@@ -67,10 +68,6 @@ const Item = styled.div`
       box-shadow: 5px 5px 12px #dddddd;
     }
   }
-`;
-
-const IconContainer = styled.div`
-  margin: 1em;
 `;
 
 const IconInformation = styled.div`

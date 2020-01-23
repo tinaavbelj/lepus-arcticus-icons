@@ -12,17 +12,17 @@ const CoffeToGo = ({ colors }) => (
       d="M45.77,63H18.38L14.05,12h36Z"
       fill={colors.tertiary}
       stroke={colors.stroke}
-      stroke-linecap="round"
-      stroke-linejoin="round"
-      stroke-width="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="2"
     />
     <path
       d="M47.17,48l1.9-24h-34L17,48H47.17Z"
       fill={colors.secondary}
       stroke={colors.stroke}
-      stroke-linecap="round"
-      stroke-linejoin="round"
-      stroke-width="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="2"
     />
     <circle
       cx="32.08"
@@ -30,17 +30,17 @@ const CoffeToGo = ({ colors }) => (
       r="7.21"
       fill={colors.primary}
       stroke={colors.stroke}
-      stroke-linecap="round"
-      stroke-linejoin="round"
-      stroke-width="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="2"
     />
     <path
       d="M50.17,7h-36l1.44-6H48.73ZM13,7H51v5H13V7Z"
       fill={colors.primary}
       stroke={colors.stroke}
-      stroke-linecap="round"
-      stroke-linejoin="round"
-      stroke-width="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="2"
     />
   </svg>
 );
