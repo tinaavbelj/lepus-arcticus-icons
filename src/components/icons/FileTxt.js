@@ -1,6 +1,6 @@
 import React from "react";
 
-const FileTxt = ({ colors }) => (
+const FileTxt = ({ colors, iconStroke }) => (
   <svg
     id="icon-fileTxt"
     xmlns="http://www.w3.org/2000/svg"
@@ -9,53 +9,55 @@ const FileTxt = ({ colors }) => (
     viewBox="0 0 64 64"
   >
     <polygon
-      points="42.73 1 56.69 14.96 56.69 63 7.31 63 7.31 1 42.73 1"
       fill={colors.tertiary}
       stroke={colors.stroke}
+      strokeWidth={iconStroke}
       strokeLinecap="round"
       strokeLinejoin="round"
-      strokeWidth="2.3"
+      points="42.1,2.9
+	55.4,16.2 55.4,62 8.3,62 8.3,2.9 "
     />
     <polygon
-      points="56.69 15.22 42.73 15.22 42.73 1.27 56.69 15.22"
       fill={colors.primary}
       stroke={colors.stroke}
+      strokeWidth={iconStroke}
       strokeLinecap="round"
       strokeLinejoin="round"
-      strokeWidth="2.3"
+      points="55.4,16.5
+	42.1,16.5 42.1,3.2 "
     />
     <line
-      x1="16.84"
-      y1="41.07"
-      x2="47.16"
-      y2="41.07"
       fill="none"
       stroke={colors.stroke}
+      strokeWidth={iconStroke}
       strokeLinecap="round"
       strokeLinejoin="round"
-      strokeWidth="2.3"
+      x1="17.4"
+      y1="41.1"
+      x2="46.3"
+      y2="41.1"
     />
     <line
-      x1="16.84"
-      y1="32"
-      x2="47.16"
-      y2="32"
       fill="none"
       stroke={colors.stroke}
+      strokeWidth={iconStroke}
       strokeLinecap="round"
       strokeLinejoin="round"
-      strokeWidth="2.3"
+      x1="17.4"
+      y1="32.5"
+      x2="46.3"
+      y2="32.5"
     />
     <line
-      x1="16.84"
-      y1="50.65"
-      x2="47.16"
-      y2="50.65"
       fill="none"
       stroke={colors.stroke}
+      strokeWidth={iconStroke}
       strokeLinecap="round"
       strokeLinejoin="round"
-      strokeWidth="2.3"
+      x1="17.4"
+      y1="50.2"
+      x2="46.3"
+      y2="50.2"
     />
   </svg>
 );

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Phone = ({ colors }) => (
+const Phone = ({ colors, iconStroke }) => (
   <svg
     id="icon-phoneHeart"
     width="64px"
@@ -9,42 +9,51 @@ const Phone = ({ colors }) => (
     viewBox="0 0 64 64"
   >
     <path
-      d="M50.55 59.3a4.71 4.71 0 01-4.7 4.7h-27.7a4.71 4.71 0 01-4.7-4.7V4.7a4.71 4.71 0 014.7-4.7h27.7a4.71 4.71 0 014.7 4.7v54.6z"
       fill={colors.primary}
+      d="M48.2,56.7c0,2.4-1.9,4.3-4.3,4.3H18.6c-2.4,0-4.3-1.9-4.3-4.3V6.8c0-2.4,1.9-4.3,4.3-4.3h25.3
+	c2.4,0,4.3,1.9,4.3,4.3V56.7z"
     />
     <path
-      fill={colors.stroke}
-      d="M45.85 2a2.7 2.7 0 012.7 2.7v54.6a2.7 2.7 0 01-2.7 2.7h-27.7a2.7 2.7 0 01-2.7-2.7V4.7a2.7 2.7 0 012.7-2.7h27.7m0-2h-27.7a4.71 4.71 0 00-4.7 4.7v54.6a4.71 4.71 0 004.7 4.7h27.7a4.71 4.71 0 004.7-4.7V4.7a4.71 4.71 0 00-4.7-4.7z"
-    />
-    <path fill={colors.tertiary} d="M14.45 10.03h35.1v44.33h-35.1z" />
-    <path
-      fill={colors.stroke}
-      d="M48.55 11v42.36h-33.1V11h33.1m2-2h-37.1v46.36h37.1V9z"
-    />
-    <circle fill={colors.stroke} cx="32" cy="58.73" r="2.4" />
-    <path
-      d="M25.34 5.57h13.32"
       fill="none"
       stroke={colors.stroke}
+      strokeWidth={iconStroke}
       strokeLinecap="round"
       strokeLinejoin="round"
-      strokeWidth="2"
+      strokeMiterlimit="10"
+      d="
+	M48.2,56.7c0,2.4-1.9,4.3-4.3,4.3H18.6c-2.4,0-4.3-1.9-4.3-4.3V6.8c0-2.4,1.9-4.3,4.3-4.3h25.3c2.4,0,4.3,1.9,4.3,4.3V56.7z"
     />
     <path
-      d="M32 27.34A4.63 4.63 0 1140.47 31h0l-.08.11a4.71 4.71 0 01-.52.68L32 40l-7.88-8.19a4.68 4.68 0 01-.52-.68l-.08-.13h0A4.63 4.63 0 1132 27.34"
+      fill={colors.tertiary}
+      stroke={colors.stroke}
+      strokeWidth={iconStroke}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeMiterlimit="10"
+      d="
+	M14.3,10.8h33.9v42.3H14.3V10.8z"
+    />
+    <circle fill={colors.stroke} cx="31.3" cy="57.1" r="2.2" />
+    <path
+      fill="none"
+      stroke={colors.stroke}
+      strokeWidth={iconStroke}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeMiterlimit="10"
+      d="
+	M25.2,6.7h12.2"
+    />
+    <path
       fill={colors.secondary}
       stroke={colors.stroke}
+      strokeWidth={iconStroke}
       strokeLinecap="round"
       strokeLinejoin="round"
-      strokeWidth="2"
-    />
-    <path
-      d="M19 34.7V44m0 3.65v2.44"
-      fill="none"
-      stroke={colors.secondary}
-      strokeLinecap="round"
       strokeMiterlimit="10"
-      strokeWidth="2"
+      d="
+	M31.3,27.5c0.5-1.8,2.2-3,4.1-3c2.3,0,4.2,1.9,4.2,4.2c0,0.8-0.2,1.5-0.6,2.1h0L38.9,31c-0.1,0.2-0.3,0.4-0.5,0.6l-7.2,7.5l-7.2-7.5
+	c-0.2-0.2-0.3-0.4-0.5-0.6l-0.1-0.1h0c-0.4-0.6-0.6-1.4-0.6-2.1c0-2.3,1.9-4.2,4.2-4.2C29,24.5,30.7,25.7,31.3,27.5"
     />
   </svg>
 );
