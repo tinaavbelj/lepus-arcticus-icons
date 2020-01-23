@@ -7,10 +7,10 @@ import keywords from "constants/keywords";
 
 const Icons = () => {
   const [colors, setColors] = useState({
-    stroke: "#0000FF",
-    primary: "#00FF00",
-    secondary: "#FF0000",
-    tertiary: "#dddddd"
+    stroke: "#000000",
+    primary: "#42C1F4",
+    secondary: "#EF9CBA",
+    tertiary: "#F2E1E7"
   });
   const [iconSize, setIconSize] = useState(32);
   const [iconStroke, setIconStroke] = useState(2);
