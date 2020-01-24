@@ -1,17 +1,22 @@
 import React from "react";
 
-const Phone = ({ colors, iconStroke }) => (
+const ComputerBasic = ({ colors, iconStroke }) => (
   <svg
-    id="icon-phone"
-    width="64px"
-    height="64px"
+    id="icon-computerBasic"
     xmlns="http://www.w3.org/2000/svg"
+    width="64"
+    height="64"
     viewBox="0 0 64 64"
   >
     <path
       fill={colors.primary}
-      d="M48.2,56.7c0,2.4-1.9,4.3-4.3,4.3H18.6c-2.4,0-4.3-1.9-4.3-4.3V6.8c0-2.4,1.9-4.3,4.3-4.3h25.3
-	c2.4,0,4.3,1.9,4.3,4.3V56.7z"
+      stroke={colors.stroke}
+      strokeWidth={iconStroke}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeMiterlimit="10"
+      d="
+	M2.7,11.6H60v38H2.7V11.6z"
     />
     <path
       fill="none"
@@ -21,7 +26,17 @@ const Phone = ({ colors, iconStroke }) => (
       strokeLinejoin="round"
       strokeMiterlimit="10"
       d="
-	M48.2,56.7c0,2.4-1.9,4.3-4.3,4.3H18.6c-2.4,0-4.3-1.9-4.3-4.3V6.8c0-2.4,1.9-4.3,4.3-4.3h25.3c2.4,0,4.3,1.9,4.3,4.3V56.7z"
+	M15.5,55h31.8"
+    />
+    <path
+      fill={colors.primary}
+      stroke={colors.stroke}
+      strokeWidth={iconStroke}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeMiterlimit="10"
+      d="
+	M20.8,49.6h21.1v5.2H20.8V49.6z"
     />
     <path
       fill={colors.tertiary}
@@ -31,20 +46,9 @@ const Phone = ({ colors, iconStroke }) => (
       strokeLinejoin="round"
       strokeMiterlimit="10"
       d="
-	M14.3,10.8h33.9v42.3H14.3V10.8z"
-    />
-    <circle fill={colors.stroke} cx="31.3" cy="57.1" r="2.2" />
-    <path
-      fill="none"
-      stroke={colors.stroke}
-      strokeWidth={iconStroke}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeMiterlimit="10"
-      d="
-	M25.2,6.7h12.2"
+	M2.7,11.6H60v32.3H2.7V11.6z"
     />
   </svg>
 );
 
-export default Phone;
+export default ComputerBasic;

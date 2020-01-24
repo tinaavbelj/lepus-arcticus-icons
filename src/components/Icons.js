@@ -1,16 +1,18 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 
+import keywords from "constants/keywords";
+import { colors as c, device, xMarginMobile } from "constants/variables";
+
 import Filters from "./main/Filters/Filters";
 import List from "./main/List/List";
-import keywords from "constants/keywords";
 
 const Icons = () => {
   const [colors, setColors] = useState({
-    stroke: "#000000",
-    primary: "#42C1F4",
-    secondary: "#EF9CBA",
-    tertiary: "#F2E1E7"
+    stroke: c.stroke,
+    primary: c.primary,
+    secondary: c.secondary,
+    tertiary: c.tertiary
   });
   const [iconSize, setIconSize] = useState(32);
   const [iconStroke, setIconStroke] = useState(2);
@@ -67,8 +69,14 @@ const Icons = () => {
 };
 
 const Wrapper = styled.div`
+  padding: ${xMarginMobile};
   display: flex;
-  padding: 80px;
+  flex-direction: column;
+
+  @media ${device.laptop} {
+    padding: 80px;
+    flex-direction: row;
+  }
 `;
 
 export default Icons;

@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 
+import { device } from "constants/variables";
+
 import Icon from "./Icon";
 import BoxShadow from "components/shared/BoxShadow";
 
@@ -37,12 +39,16 @@ const List = ({ colors, iconSize, iconStroke, filteredIcons }) => {
 };
 
 const Wrapper = styled.div`
-  width: calc(100% - 250px - 120px);
+  width: 100%;
   height: fit-content;
-  margin-left: 120px;
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+
+  @media ${device.laptop} {
+    width: calc(100% - 250px - 120px);
+    margin-left: 120px;
+  }
 `;
 
 const IconWrapper = styled(BoxShadow)`
