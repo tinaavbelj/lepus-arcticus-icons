@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 
+import { device } from "constants/variables";
+
 import Colors from "./components/Colors";
 import Search from "./components/Search";
 import Size from "./components/Size";
@@ -27,9 +29,6 @@ const Filters = ({
       <Colors colors={colors} onColorChange={onColorChange}></Colors>
     </Segment>
     <Segment>
-      <Size iconSize={iconSize} onIconSizeChange={onIconSizeChange}></Size>
-    </Segment>
-    <Segment>
       <Stroke
         iconStroke={iconStroke}
         onIconStrokeChange={onIconStrokeChange}
@@ -39,7 +38,13 @@ const Filters = ({
 );
 
 const Wrapper = styled.div`
-  width: 250px;
+  width: 100%;
+  margin-bottom: 80px;
+
+  @media ${device.laptop} {
+    width: 250px;
+    margin-bottom: 0;
+  }
 `;
 
 const Segment = styled.div`

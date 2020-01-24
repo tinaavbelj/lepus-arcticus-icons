@@ -1,0 +1,134 @@
+import React from "react";
+
+const FrenchFries = ({ colors, iconStroke }) => (
+  <svg
+    id="icon-frenchFries"
+    xmlns="http://www.w3.org/2000/svg"
+    width="64"
+    height="64"
+    viewBox="0 0 64 64"
+  >
+    <path
+      fill={colors.secondary}
+      stroke={colors.stroke}
+      strokeWidth={iconStroke}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeMiterlimit="10"
+      d="
+	M42.5,22.8c-1.1,4.3-5.6,7.5-11,7.5s-9.8-3.2-11-7.5H8.7l6.5,38.9h32.7l6.5-38.9C54.4,22.8,42.5,22.8,42.5,22.8z"
+    />
+    <circle
+      fill={colors.tertiary}
+      stroke={colors.stroke}
+      strokeWidth={iconStroke}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeMiterlimit="10"
+      cx="31.5"
+      cy="45.5"
+      r="7.7"
+    />
+    <path
+      fill={colors.primary}
+      stroke={colors.stroke}
+      strokeWidth={iconStroke}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeMiterlimit="10"
+      d="
+	M20.8,22.8c0.8,2.8,2.9,5.1,5.9,6.4L20.4,2.7l-7.6,1.9L17,22.8C17,22.8,20.8,22.8,20.8,22.8z"
+    />
+    <g>
+      <path
+        fill={colors.primary}
+        stroke={colors.stroke}
+        strokeWidth={iconStroke}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeMiterlimit="10"
+        d="
+		M27.1,29L27.1,29c0.1,0,0.1,0.1,0.2,0.1C27.3,29.1,27.1,29,27.1,29z"
+      />
+
+      <path
+        fill={colors.primary}
+        stroke={colors.stroke}
+        strokeWidth={iconStroke}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeMiterlimit="10"
+        d="
+		M31.2,7.7h-6.5l2.1,18.4l0.7,3.1c1.6,0.7,3.4,1.1,5.1,1.1c0.3,0,0.6,0,0.9,0L31.2,7.7z"
+      />
+    </g>
+    <g>
+      <path
+        fill={colors.primary}
+        stroke={colors.stroke}
+        strokeWidth={iconStroke}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeMiterlimit="10"
+        d="
+		M33.5,30.2l-0.2,0L33.5,30.2z"
+      />
+
+      <path
+        fill={colors.primary}
+        stroke={colors.stroke}
+        strokeWidth={iconStroke}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeMiterlimit="10"
+        d="
+		M32.6,2.7v18.5l0.9,9c1.6-0.1,3.2-0.5,4.6-1.2l1.3-26.3L32.6,2.7L32.6,2.7z"
+      />
+    </g>
+    <polygon
+      fill={colors.primary}
+      stroke={colors.stroke}
+      strokeWidth={iconStroke}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeMiterlimit="10"
+      points="
+	17.6,22.8 12.5,22.8 7.2,9.9 13.5,7.7 "
+    />
+    <g>
+      <path
+        fill={colors.primary}
+        stroke={colors.stroke}
+        strokeWidth={iconStroke}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeMiterlimit="10"
+        d="
+		M38,29.1L38,29.1L38,29.1L38,29.1z"
+      />
+
+      <path
+        fill={colors.primary}
+        stroke={colors.stroke}
+        strokeWidth={iconStroke}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeMiterlimit="10"
+        d="
+		M41.9,3.6l-3.7,23.9L38.2,29c2.7-1.3,4.7-3.6,5.4-6.2h1l4.1-17.9C48.8,4.9,41.9,3.6,41.9,3.6z"
+      />
+    </g>
+    <polygon
+      fill={colors.primary}
+      stroke={colors.stroke}
+      strokeWidth={iconStroke}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeMiterlimit="10"
+      points="
+	48.6,8.8 45.4,22.8 51.5,22.8 54.8,9.9 "
+    />
+  </svg>
+);
+
+export default FrenchFries;

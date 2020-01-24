@@ -1,8 +1,8 @@
 import React from "react";
 
-const Phone = ({ colors, iconStroke }) => (
+const PhoneHeart = ({ colors, iconStroke }) => (
   <svg
-    id="icon-phone"
+    id="icon-phoneHeart"
     width="64px"
     height="64px"
     xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +44,18 @@ const Phone = ({ colors, iconStroke }) => (
       d="
 	M25.2,6.7h12.2"
     />
+    <path
+      fill={colors.secondary}
+      stroke={colors.stroke}
+      strokeWidth={iconStroke}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeMiterlimit="10"
+      d="
+	M31.3,27.5c0.5-1.8,2.2-3,4.1-3c2.3,0,4.2,1.9,4.2,4.2c0,0.8-0.2,1.5-0.6,2.1h0L38.9,31c-0.1,0.2-0.3,0.4-0.5,0.6l-7.2,7.5l-7.2-7.5
+	c-0.2-0.2-0.3-0.4-0.5-0.6l-0.1-0.1h0c-0.4-0.6-0.6-1.4-0.6-2.1c0-2.3,1.9-4.2,4.2-4.2C29,24.5,30.7,25.7,31.3,27.5"
+    />
   </svg>
 );
 
-export default Phone;
+export default PhoneHeart;
