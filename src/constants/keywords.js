@@ -8,6 +8,26 @@ export default {
   fileTxt: ["file", "computer", "txt", "document", "paper", "notes"],
   file: ["file", "computer", "txt", "document", "notes", "paper"],
   frenchFries: ["french fries", "food", "fast food"],
+  iceCream: [
+    "food",
+    "icecream",
+    "ice cream",
+    "sweet",
+    "summer",
+    "holidays",
+    "vacation",
+    "relax"
+  ],
+  iceCreamBite: [
+    "food",
+    "icecream",
+    "ice cream",
+    "sweet",
+    "summer",
+    "holidays",
+    "vacation",
+    "relax"
+  ],
   leaf: [
     "nature",
     "leaf",
@@ -35,6 +55,7 @@ export default {
     "vacation"
   ],
   mapLocation: ["map", "location", "travel", "holidays", "vacation"],
+  message: ["message", "text", "conversation", "communication", "social"],
   mushroom: ["nature", "mushroom", "forest", "nature"],
   mushroomDots: ["nature", "mushroom", "forest", "nature"],
   palette: ["palette", "colors", "color", "paint", "art", "design", "graphic"],
@@ -49,6 +70,22 @@ export default {
   ],
   plant: ["plant", "nature", "sustainability", "eco", "ecology"],
   plantTall: ["plant", "nature", "sustainability", "eco", "ecology"],
+  search: ["search", "technology", "zoom"],
+  sun: [
+    "sun",
+    "weather",
+    "nature",
+    "space",
+    "sky",
+    "happy",
+    "sea",
+    "seaside",
+    "summer",
+    "beach",
+    "vacation",
+    "holidays",
+    "travel"
+  ],
   tablet: ["tablet", "texhnology", "it", "computer", "technology"],
   tabletHeart: [
     "tablet",
