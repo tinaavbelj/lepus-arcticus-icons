@@ -12,7 +12,7 @@ export const paddingSmall = "24px";
 export const paddingMedium = "72px";
 export const paddingLarge = "100px";
 
-export const xMarginMobile = "16px";
+export const xMarginMobile = "32px";
 
 export const contentWidth = "800px";
 export const contentWidthNarrow = "600px";
