@@ -42,7 +42,7 @@ const Wrapper = styled.div`
   width: 100%;
   height: fit-content;
   display: grid;
-  grid-gap: 1rem;
+  grid-gap: 3rem 2rem;
   grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
 
   @media ${device.laptop} {

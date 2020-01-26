@@ -1,4 +1,13 @@
 export default {
+  calendar: [
+    "calendar",
+    "date",
+    "meeting",
+    "year",
+    "time",
+    "schedule",
+    "timetable"
+  ],
   cloud: ["nature", "cloud", "weather", "rain", "ecology", "eco"],
   coffeeToGo: ["coffee", "drink", "tea", "to go"],
   computerBasic: ["computer", "technology", "ai", "work"],
@@ -46,6 +55,8 @@ export default {
     "forest",
     "green"
   ],
+  letter: ["letter", "send", "message", "communication"],
+  letterHeart: ["letter", "send", "message", "communication", "love", "heart"],
   location: [
     "location",
     "map",
@@ -56,6 +67,7 @@ export default {
   ],
   mapLocation: ["map", "location", "travel", "holidays", "vacation"],
   message: ["message", "text", "conversation", "communication", "social"],
+  messageTxt: ["message", "text", "conversation", "communication", "social"],
   mushroom: ["nature", "mushroom", "forest", "nature"],
   mushroomDots: ["nature", "mushroom", "forest", "nature"],
   palette: ["palette", "colors", "color", "paint", "art", "design", "graphic"],
