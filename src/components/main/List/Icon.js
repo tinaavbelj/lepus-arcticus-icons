@@ -1,6 +1,8 @@
 import React from "react";
 
+import AlarmClock from "components/icons/AlarmClock";
 import Calendar from "components/icons/Calendar";
+import Clock from "components/icons/Clock";
 import Cloud from "components/icons/Cloud";
 import CoffeeToGo from "components/icons/CoffeToGo";
 import ComputerBasic from "components/icons/ComputerBasic";
@@ -34,7 +36,9 @@ import TabletHeart from "components/icons/TabletHeart";
 
 const Icon = ({ name, colors, iconSize, iconStroke }) => {
   const icons = {
+    alarmClock: AlarmClock,
     calendar: Calendar,
+    clock: Clock,
     cloud: Cloud,
     coffeeToGo: CoffeeToGo,
     computerBasic: ComputerBasic,

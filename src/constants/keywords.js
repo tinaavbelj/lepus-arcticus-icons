@@ -1,4 +1,14 @@
 export default {
+  alarmClock: [
+    "time",
+    "clock",
+    "watch",
+    "timetable",
+    "opening hours",
+    "schedule",
+    "alarm",
+    "morning"
+  ],
   calendar: [
     "calendar",
     "date",
@@ -8,7 +18,8 @@ export default {
     "schedule",
     "timetable"
   ],
-  cloud: ["nature", "cloud", "weather", "rain", "ecology", "eco"],
+  clock: ["time", "clock", "watch", "timetable", "opening hours", "schedule"],
+  cloud: ["nature", "cloud", "weather", "rain", "ecology", "eco", "weather"],
   coffeeToGo: ["coffee", "drink", "tea", "to go"],
   computerBasic: ["computer", "technology", "ai", "work"],
   computerHeart: ["computer", "technology", "heart", "love"],
