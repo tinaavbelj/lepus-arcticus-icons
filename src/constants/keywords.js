@@ -18,6 +18,7 @@ export default {
     "schedule",
     "timetable"
   ],
+  camera: ["camera", "photo", "photography", "art", "image", "portrait"],
   clock: ["time", "clock", "watch", "timetable", "opening hours", "schedule"],
   cloud: ["nature", "cloud", "weather", "rain", "ecology", "eco", "weather"],
   coffeeToGo: ["coffee", "drink", "tea", "to go"],
@@ -79,8 +80,10 @@ export default {
   mapLocation: ["map", "location", "travel", "holidays", "vacation"],
   message: ["message", "text", "conversation", "communication", "social"],
   messageTxt: ["message", "text", "conversation", "communication", "social"],
+  moon: ["moon", "sky", "space", "nature", "night", "weather"],
   mushroom: ["nature", "mushroom", "forest", "nature"],
   mushroomDots: ["nature", "mushroom", "forest", "nature"],
+  musicNote: ["music", "note", "radio", "sound", "art"],
   palette: ["palette", "colors", "color", "paint", "art", "design", "graphic"],
   phone: ["phone", "telephone", "responsive", "technology"],
   phoneHeart: [

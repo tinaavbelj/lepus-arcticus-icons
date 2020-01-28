@@ -2,6 +2,7 @@ import React from "react";
 
 import AlarmClock from "components/icons/AlarmClock";
 import Calendar from "components/icons/Calendar";
+import Camera from "components/icons/Camera";
 import Clock from "components/icons/Clock";
 import Cloud from "components/icons/Cloud";
 import CoffeeToGo from "components/icons/CoffeToGo";
@@ -22,8 +23,10 @@ import Location from "components/icons/Location";
 import MapLocation from "components/icons/MapLocation";
 import Message from "components/icons/Message";
 import MessageTxt from "components/icons/MessageTxt";
+import Moon from "components/icons/Moon";
 import Mushroom from "components/icons/Mushroom";
 import MushroomDots from "components/icons/MushroomDots";
+import MusicNote from "components/icons/MusicNote";
 import Palette from "components/icons/Palette";
 import Phone from "components/icons/Phone";
 import PhoneHeart from "components/icons/PhoneHeart";
@@ -38,6 +41,7 @@ const Icon = ({ name, colors, iconSize, iconStroke }) => {
   const icons = {
     alarmClock: AlarmClock,
     calendar: Calendar,
+    camera: Camera,
     clock: Clock,
     cloud: Cloud,
     coffeeToGo: CoffeeToGo,
@@ -58,8 +62,10 @@ const Icon = ({ name, colors, iconSize, iconStroke }) => {
     mapLocation: MapLocation,
     message: Message,
     messageTxt: MessageTxt,
+    moon: Moon,
     mushroom: Mushroom,
     mushroomDots: MushroomDots,
+    musicNote: MusicNote,
     palette: Palette,
     phone: Phone,
     phoneHeart: PhoneHeart,
