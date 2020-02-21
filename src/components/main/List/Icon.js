@@ -33,6 +33,8 @@ import PhoneHeart from "components/icons/PhoneHeart";
 import Plant from "components/icons/Plant";
 import PlantTall from "components/icons/PlantTall";
 import Search from "components/icons/Search";
+import ShoppingBag from "components/icons/ShoppingBag";
+import ShoppingBagDiscount from "components/icons/ShoppingBagDiscount";
 import Sun from "components/icons/Sun";
 import Tablet from "components/icons/Tablet";
 import TabletHeart from "components/icons/TabletHeart";
@@ -72,6 +74,8 @@ const Icon = ({ name, colors, iconSize, iconStroke }) => {
     plant: Plant,
     plantTall: PlantTall,
     search: Search,
+    shoppingBag: ShoppingBag,
+    shoppingBagDiscount: ShoppingBagDiscount,
     sun: Sun,
     tablet: Tablet,
     tabletHeart: TabletHeart

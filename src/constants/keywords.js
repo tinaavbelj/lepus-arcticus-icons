@@ -97,6 +97,8 @@ export default {
   plant: ["plant", "nature", "sustainability", "eco", "ecology"],
   plantTall: ["plant", "nature", "sustainability", "eco", "ecology"],
   search: ["search", "technology", "zoom"],
+  shoppingBag: ["search", "technology", "zoom"],
+  shoppingBagDiscount: ["search", "technology", "zoom"],
   sun: [
     "sun",
     "weather",
