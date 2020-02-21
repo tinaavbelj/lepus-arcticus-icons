@@ -12,6 +12,7 @@ import DrinkStraw from "components/icons/DrinkStraw";
 import DrinkToGo from "components/icons/DrinkToGo";
 import File from "components/icons/File";
 import FileTxt from "components/icons/FileTxt";
+import FoodCart from "components/icons/FoodCart";
 import FrenchFries from "components/icons/FrenchFries";
 import IceCream from "components/icons/IceCream";
 import IceCreamBite from "components/icons/IceCreamBite";
@@ -53,6 +54,7 @@ const Icon = ({ name, colors, iconSize, iconStroke }) => {
     drinkToGo: DrinkToGo,
     file: File,
     fileTxt: FileTxt,
+    foodCart: FoodCart,
     frenchFries: FrenchFries,
     iceCream: IceCream,
     iceCreamBite: IceCreamBite,
