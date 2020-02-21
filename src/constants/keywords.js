@@ -28,6 +28,15 @@ export default {
   drinkToGo: ["drink", "to go", "straw", "summer", "chill"],
   fileTxt: ["file", "computer", "txt", "document", "paper", "notes"],
   file: ["file", "computer", "txt", "document", "notes", "paper"],
+  foodCart: [
+    "food",
+    "cart",
+    "to go",
+    "fast food",
+    "food stand",
+    "ice cream",
+    "market"
+  ],
   frenchFries: ["french fries", "food", "fast food"],
   iceCream: [
     "food",
@@ -97,6 +106,8 @@ export default {
   plant: ["plant", "nature", "sustainability", "eco", "ecology"],
   plantTall: ["plant", "nature", "sustainability", "eco", "ecology"],
   search: ["search", "technology", "zoom"],
+  shoppingBag: ["search", "technology", "zoom"],
+  shoppingBagDiscount: ["search", "technology", "zoom"],
   sun: [
     "sun",
     "weather",

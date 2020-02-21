@@ -12,6 +12,7 @@ import DrinkStraw from "components/icons/DrinkStraw";
 import DrinkToGo from "components/icons/DrinkToGo";
 import File from "components/icons/File";
 import FileTxt from "components/icons/FileTxt";
+import FoodCart from "components/icons/FoodCart";
 import FrenchFries from "components/icons/FrenchFries";
 import IceCream from "components/icons/IceCream";
 import IceCreamBite from "components/icons/IceCreamBite";
@@ -33,6 +34,8 @@ import PhoneHeart from "components/icons/PhoneHeart";
 import Plant from "components/icons/Plant";
 import PlantTall from "components/icons/PlantTall";
 import Search from "components/icons/Search";
+import ShoppingBag from "components/icons/ShoppingBag";
+import ShoppingBagDiscount from "components/icons/ShoppingBagDiscount";
 import Sun from "components/icons/Sun";
 import Tablet from "components/icons/Tablet";
 import TabletHeart from "components/icons/TabletHeart";
@@ -51,6 +54,7 @@ const Icon = ({ name, colors, iconSize, iconStroke }) => {
     drinkToGo: DrinkToGo,
     file: File,
     fileTxt: FileTxt,
+    foodCart: FoodCart,
     frenchFries: FrenchFries,
     iceCream: IceCream,
     iceCreamBite: IceCreamBite,
@@ -72,6 +76,8 @@ const Icon = ({ name, colors, iconSize, iconStroke }) => {
     plant: Plant,
     plantTall: PlantTall,
     search: Search,
+    shoppingBag: ShoppingBag,
+    shoppingBagDiscount: ShoppingBagDiscount,
     sun: Sun,
     tablet: Tablet,
     tabletHeart: TabletHeart
