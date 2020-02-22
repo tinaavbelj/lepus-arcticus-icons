@@ -119,8 +119,25 @@ export default {
   plantTall: ["plant", "nature", "sustainability", "eco", "ecology"],
   popcorn: ["food", "snack", "cinema", "movie", "movies"],
   search: ["search", "technology", "zoom"],
-  shoppingBag: ["search", "technology", "zoom"],
-  shoppingBagDiscount: ["search", "technology", "zoom"],
+  shoppingBag: [
+    "shopping",
+    "consumerism",
+    "shop",
+    "bag",
+    "shopping bag",
+    "cart",
+    "checkout"
+  ],
+  shoppingBagDiscount: [
+    "shopping",
+    "consumerism",
+    "shop",
+    "bag",
+    "shopping bag",
+    "cart",
+    "discount",
+    "checkout"
+  ],
   sun: [
     "sun",
     "weather",
