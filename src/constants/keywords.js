@@ -9,6 +9,18 @@ export default {
     "alarm",
     "morning"
   ],
+  bottle: [
+    "food",
+    "ecology",
+    "waste",
+    "drink",
+    "water",
+    "bottle",
+    "plastic",
+    "milk"
+  ],
+  bowl: ["food", "bowl", "soup", "meal", "lunch", "dinner"],
+  burger: ["food", "fast food", "to go", "lunch", "dinner", "meal"],
   calendar: [
     "calendar",
     "date",
@@ -21,11 +33,11 @@ export default {
   camera: ["camera", "photo", "photography", "art", "image", "portrait"],
   clock: ["time", "clock", "watch", "timetable", "opening hours", "schedule"],
   cloud: ["nature", "cloud", "weather", "rain", "ecology", "eco", "weather"],
-  coffeeToGo: ["coffee", "drink", "tea", "to go"],
+  coffeeToGo: ["coffee", "drink", "tea", "to go", "food"],
   computerBasic: ["computer", "technology", "ai", "work"],
   computerHeart: ["computer", "technology", "heart", "love"],
-  drinkStraw: ["drink", "straw", "summer", "chill"],
-  drinkToGo: ["drink", "to go", "straw", "summer", "chill"],
+  drinkStraw: ["drink", "straw", "summer", "chill", "food"],
+  drinkToGo: ["drink", "to go", "straw", "summer", "chill", "food"],
   fileTxt: ["file", "computer", "txt", "document", "paper", "notes"],
   file: ["file", "computer", "txt", "document", "notes", "paper"],
   foodCart: [
@@ -105,9 +117,27 @@ export default {
   ],
   plant: ["plant", "nature", "sustainability", "eco", "ecology"],
   plantTall: ["plant", "nature", "sustainability", "eco", "ecology"],
+  popcorn: ["food", "snack", "cinema", "movie", "movies"],
   search: ["search", "technology", "zoom"],
-  shoppingBag: ["search", "technology", "zoom"],
-  shoppingBagDiscount: ["search", "technology", "zoom"],
+  shoppingBag: [
+    "shopping",
+    "consumerism",
+    "shop",
+    "bag",
+    "shopping bag",
+    "cart",
+    "checkout"
+  ],
+  shoppingBagDiscount: [
+    "shopping",
+    "consumerism",
+    "shop",
+    "bag",
+    "shopping bag",
+    "cart",
+    "discount",
+    "checkout"
+  ],
   sun: [
     "sun",
     "weather",

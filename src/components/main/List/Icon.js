@@ -1,6 +1,9 @@
 import React from "react";
 
 import AlarmClock from "components/icons/AlarmClock";
+import Bottle from "components/icons/Bottle";
+import Bowl from "components/icons/Bowl";
+import Burger from "components/icons/Burger";
 import Calendar from "components/icons/Calendar";
 import Camera from "components/icons/Camera";
 import Clock from "components/icons/Clock";
@@ -33,6 +36,7 @@ import Phone from "components/icons/Phone";
 import PhoneHeart from "components/icons/PhoneHeart";
 import Plant from "components/icons/Plant";
 import PlantTall from "components/icons/PlantTall";
+import Popcorn from "components/icons/Popcorn";
 import Search from "components/icons/Search";
 import ShoppingBag from "components/icons/ShoppingBag";
 import ShoppingBagDiscount from "components/icons/ShoppingBagDiscount";
@@ -43,6 +47,9 @@ import TabletHeart from "components/icons/TabletHeart";
 const Icon = ({ name, colors, iconSize, iconStroke }) => {
   const icons = {
     alarmClock: AlarmClock,
+    bottle: Bottle,
+    bowl: Bowl,
+    burger: Burger,
     calendar: Calendar,
     camera: Camera,
     clock: Clock,
@@ -75,6 +82,7 @@ const Icon = ({ name, colors, iconSize, iconStroke }) => {
     phoneHeart: PhoneHeart,
     plant: Plant,
     plantTall: PlantTall,
+    popcorn: Popcorn,
     search: Search,
     shoppingBag: ShoppingBag,
     shoppingBagDiscount: ShoppingBagDiscount,
