@@ -9,6 +9,18 @@ export default {
     "alarm",
     "morning"
   ],
+  bottle: [
+    "food",
+    "ecology",
+    "waste",
+    "drink",
+    "water",
+    "bottle",
+    "plastic",
+    "milk"
+  ],
+  bowl: ["food", "bowl", "soup", "meal", "lunch", "dinner"],
+  burger: ["food", "fast food", "to go", "lunch", "dinner", "meal"],
   calendar: [
     "calendar",
     "date",
@@ -105,6 +117,7 @@ export default {
   ],
   plant: ["plant", "nature", "sustainability", "eco", "ecology"],
   plantTall: ["plant", "nature", "sustainability", "eco", "ecology"],
+  popcorn: ["food", "snack", "cinema", "movie", "movies"],
   search: ["search", "technology", "zoom"],
   shoppingBag: ["search", "technology", "zoom"],
   shoppingBagDiscount: ["search", "technology", "zoom"],
