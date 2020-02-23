@@ -33,6 +33,7 @@ import Muffin from "components/icons/Muffin";
 import Mushroom from "components/icons/Mushroom";
 import MushroomDots from "components/icons/MushroomDots";
 import MusicNote from "components/icons/MusicNote";
+import Notebook from "components/icons/Notebook";
 import Palette from "components/icons/Palette";
 import Pencil from "components/icons/Pencil";
 import Phone from "components/icons/Phone";
@@ -82,6 +83,7 @@ const Icon = ({ name, colors, iconSize, iconStroke }) => {
     mushroom: Mushroom,
     mushroomDots: MushroomDots,
     musicNote: MusicNote,
+    notebook: Notebook,
     palette: Palette,
     pencil: Pencil,
     phone: Phone,
