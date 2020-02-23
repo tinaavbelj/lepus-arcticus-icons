@@ -25,13 +25,16 @@ import Letter from "components/icons/Letter";
 import LetterHeart from "components/icons/LetterHeart";
 import Location from "components/icons/Location";
 import MapLocation from "components/icons/MapLocation";
+import Mathematics from "components/icons/Mathematics";
 import Message from "components/icons/Message";
 import MessageTxt from "components/icons/MessageTxt";
 import Moon from "components/icons/Moon";
+import Muffin from "components/icons/Muffin";
 import Mushroom from "components/icons/Mushroom";
 import MushroomDots from "components/icons/MushroomDots";
 import MusicNote from "components/icons/MusicNote";
 import Palette from "components/icons/Palette";
+import Pencil from "components/icons/Pencil";
 import Phone from "components/icons/Phone";
 import PhoneHeart from "components/icons/PhoneHeart";
 import Plant from "components/icons/Plant";
@@ -71,13 +74,16 @@ const Icon = ({ name, colors, iconSize, iconStroke }) => {
     letterHeart: LetterHeart,
     location: Location,
     mapLocation: MapLocation,
+    mathematics: Mathematics,
     message: Message,
     messageTxt: MessageTxt,
     moon: Moon,
+    muffin: Muffin,
     mushroom: Mushroom,
     mushroomDots: MushroomDots,
     musicNote: MusicNote,
     palette: Palette,
+    pencil: Pencil,
     phone: Phone,
     phoneHeart: PhoneHeart,
     plant: Plant,
