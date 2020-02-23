@@ -116,6 +116,15 @@ export default {
   mushroom: ["nature", "mushroom", "forest", "nature"],
   mushroomDots: ["nature", "mushroom", "forest", "nature"],
   musicNote: ["music", "note", "radio", "sound", "art"],
+  notebook: [
+    "notebook",
+    "school",
+    "education",
+    "paper",
+    "learning",
+    "write",
+    "book"
+  ],
   palette: ["palette", "colors", "color", "paint", "art", "design", "graphic"],
   pencil: ["education", "school", "pencil", "draw", "write", "object"],
   phone: ["phone", "telephone", "responsive", "technology"],
