@@ -99,13 +99,25 @@ export default {
     "vacation"
   ],
   mapLocation: ["map", "location", "travel", "holidays", "vacation"],
+  mathematics: [
+    "education",
+    "math",
+    "calculate",
+    "calculator",
+    "calculation",
+    "mathematics",
+    "numbers",
+    "school"
+  ],
   message: ["message", "text", "conversation", "communication", "social"],
   messageTxt: ["message", "text", "conversation", "communication", "social"],
   moon: ["moon", "sky", "space", "nature", "night", "weather"],
+  muffin: ["food", "sweet", "muffin", "cupcake", "cake", "snack"],
   mushroom: ["nature", "mushroom", "forest", "nature"],
   mushroomDots: ["nature", "mushroom", "forest", "nature"],
   musicNote: ["music", "note", "radio", "sound", "art"],
   palette: ["palette", "colors", "color", "paint", "art", "design", "graphic"],
+  pencil: ["education", "school", "pencil", "draw", "write", "object"],
   phone: ["phone", "telephone", "responsive", "technology"],
   phoneHeart: [
     "phone",
