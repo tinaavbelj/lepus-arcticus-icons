@@ -17,6 +17,7 @@ import File from "components/icons/File";
 import FileTxt from "components/icons/FileTxt";
 import FoodCart from "components/icons/FoodCart";
 import FrenchFries from "components/icons/FrenchFries";
+import Graduation from "components/icons/Graduation";
 import IceCream from "components/icons/IceCream";
 import IceCreamBite from "components/icons/IceCreamBite";
 import Leaf from "components/icons/Leaf";
@@ -67,6 +68,7 @@ const Icon = ({ name, colors, iconSize, iconStroke }) => {
     fileTxt: FileTxt,
     foodCart: FoodCart,
     frenchFries: FrenchFries,
+    graduation: Graduation,
     iceCream: IceCream,
     iceCreamBite: IceCreamBite,
     leaf: Leaf,

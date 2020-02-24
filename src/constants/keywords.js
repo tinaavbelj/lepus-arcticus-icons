@@ -50,6 +50,7 @@ export default {
     "market"
   ],
   frenchFries: ["french fries", "food", "fast food"],
+  graduation: ["education", "school", "graduation", "learn"],
   iceCream: [
     "food",
     "icecream",
