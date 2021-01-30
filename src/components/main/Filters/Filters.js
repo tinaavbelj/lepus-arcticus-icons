@@ -5,7 +5,6 @@ import { device } from "constants/variables";
 
 import Colors from "./components/Colors";
 import Search from "./components/Search";
-import Size from "./components/Size";
 import Stroke from "./components/Stroke";
 
 const Filters = ({
@@ -16,11 +15,11 @@ const Filters = ({
   onColorChange,
   onIconSizeChange,
   onIconStrokeChange,
-  onKeywordChange
+  onKeywordChange,
 }) => (
   <Wrapper>
     <Segment>
-      <Heading>Lepus / icons</Heading>
+      <Heading>icons</Heading>
     </Segment>
     <Segment>
       <Search keyword={keyword} onKeywordChange={onKeywordChange}></Search>
@@ -55,7 +54,7 @@ const Segment = styled.div`
 
 const Heading = styled.div`
   font-weight: bold;
-  font-size: 20px;
+  font-size: 24px;
 `;
 
 export default Filters;
